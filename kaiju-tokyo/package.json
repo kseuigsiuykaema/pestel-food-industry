@@ -1,0 +1,15 @@
+{
+  "name": "kaiju-tokyo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "光翼獣ソレアロン × 陽砕獣テラノクス — procedural 3D kaiju rampage through night Tokyo (Three.js)",
+  "scripts": {
+    "render": "node render.mjs --w 1920 --h 1080 --fps 24 --workers 1",
+    "still": "node still.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1",
+    "three": "0.186.1"
+  }
+}
